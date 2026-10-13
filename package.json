@@ -1,0 +1,20 @@
+{
+  "name": "jestor-cursor-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cursor plugin for the hosted Jestor MCP service.",
+  "type": "module",
+  "packageManager": "pnpm@10.34.7",
+  "engines": {
+    "node": ">=24 <25",
+    "pnpm": ">=10 <11"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0"
+  }
+}

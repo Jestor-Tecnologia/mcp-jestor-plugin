@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "jestor": {
+      "url": "https://mcp.jestor.com/v1/gateway",
+      "auth": {
+        "CLIENT_ID": "cursor"
+      }
+    }
+  }
+}

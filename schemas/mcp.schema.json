@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local Jestor Cursor MCP contract (not an official Cursor schema)",
+  "type": "object",
+  "required": ["mcpServers"],
+  "additionalProperties": false,
+  "properties": {
+    "mcpServers": {
+      "type": "object",
+      "required": ["jestor"],
+      "additionalProperties": false,
+      "properties": {
+        "jestor": {
+          "type": "object",
+          "required": ["url", "auth"],
+          "additionalProperties": false,
+          "properties": {
+            "url": { "const": "https://mcp.jestor.com/v1/gateway" },
+            "auth": {
+              "type": "object",
+              "required": ["CLIENT_ID"],
+              "additionalProperties": false,
+              "properties": { "CLIENT_ID": { "const": "cursor" } }
+            }
+          }
+        }
+      }
+    }
+  }
+}

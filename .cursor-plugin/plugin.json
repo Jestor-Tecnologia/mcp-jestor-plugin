@@ -1,0 +1,17 @@
+{
+  "name": "jestor",
+  "version": "1.0.0",
+  "description": "Work with your Jestor records, tables, tasks, users, permissions, and automations from your connected environment.",
+  "author": {
+    "name": "Jestor"
+  },
+  "homepage": "https://jestor.com/",
+  "keywords": [
+    "productivity",
+    "operations",
+    "records",
+    "tasks",
+    "automation"
+  ],
+  "logo": "assets/jestor-icon.svg"
+}
